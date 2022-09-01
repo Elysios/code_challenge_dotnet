@@ -55,6 +55,7 @@ Essas são as funcionalidades básicas que sua aplicação deve conter, sinta-se
 - Utilize banco MySQL
 - Testes são um grande diferencial
 - Readme descrevendo o projeto e seu setup
+- Disponibilize o Swagger para visualizar os recursos da API
 
 ## Instruções de entrega do desafio
 
