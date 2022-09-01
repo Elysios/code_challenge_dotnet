@@ -23,8 +23,11 @@ O desafio consiste na criação de uma API para fazer CRUD de três entidades:
 
 ### Informações: 
 As entidades devem se relacionar da seguinte forma: Caso o contato comercial seja um fornecedor, pode ter até 3 propriedades. Clientes não têm nenhuma.
+
 Ao excluir um fornecedor as propriedades pertencentes a ele devem ser excluídas também.
+
 Uma propriedade pode ter N espécies de plantas e uma espécie de planta pode estar em N propriedades.      
+
 O número de plantas deve ser calculado automaticamente utilizando o espaçamento entre fileiras e plantas com a fórmula: <b>nº de plantas = Área / (Espaçamento entre fileiras * Espaçamento entre plantas)</b>.
 
 ![Espaçamento entre filas e plantas](espaço-entre-plantas-.jpeg)
@@ -39,7 +42,9 @@ A API deve ter pelo menos os endpoints:
 **Algumas observações:**
 
 Ao retornar a lista deve-se exibir o nome dos contatos e ser ordenada pelo primeiro nome.
+
 Na criação de uma propriedade não é obrigatório informar o número de plantas, mas ao retornar a lista de propriedades o número de plantas deve estar calculado de acordo com a fórmula apresentada acima.
+
 Essas são as funcionalidades básicas que sua aplicação deve conter, sinta-se à vontade para adicionar recursos, se achar que faz sentido.
 
 **Requisitos:**
